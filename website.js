@@ -11,11 +11,13 @@ function advisor(){
             document.getElementById("solutions").style.position = "relative";
             switch(id){
                 case 'happy':
+                    document.getElementById('solutions').style.color='aqua';
                     document.getElementById('solutions').innerHTML=
                     "<h3 style='font-family:Lucida Handwriting,cursive'>It's great that you're happy</h3>"+
                     "Engage yourself in any important or likable activity to gain result to maximum productivity";
                     break;
                 case 'sad':
+                    document.getElementById('solutions').style.color='navy';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Sad... </h3>'+
                     "Let yourself cry if it comes — it's a real release, not weakness <br>"+
@@ -24,6 +26,7 @@ function advisor(){
                     'Step outside for sunlight or fresh air, even for 5 minutes';
                     break
                 case 'anx':
+                    document.getElementById('solutions').style.color='darkgoldenrod';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Anxious...</h3>'+
                     "Box breathing: inhale 4 counts, hold 4, exhale 4, hold 4 — repeat <br>"+
@@ -32,6 +35,7 @@ function advisor(){
                     'Move your body — pacing, stretching, a short walk';
                     break
                 case 'disg':
+                    document.getElementById('solutions').style.color='darkgreen';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Disgusting...</h3>'+
                     "Wash your hands or face, or shower if possible — sometimes the feeling is partly physical <br>"+
@@ -40,6 +44,7 @@ function advisor(){
                     'Do something with a pleasant smell — tea, citrus, a candle';
                     break 
                 case 'angry':
+                    document.getElementById('solutions').style.color='red';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Angry...</h3>'+
                     "Physical release: fast walk, punching a pillow, shaking out your hands, jumping jacks <br>"+
@@ -48,6 +53,7 @@ function advisor(){
                     'Cold water on wrists or face to bring your body temperature and heart rate down';
                     break
                 case 'knot':
+                    document.getElementById('solutions').style.color='darkorchid';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Experiencing Knots in Stomach...</h3>'+
                     "Slow diaphragmatic breathing — hand on belly, feel it rise and fall<br>"+
@@ -56,6 +62,7 @@ function advisor(){
                     'Warm compress or hot water bottle on your abdomen';
                     break
                 case 'nervous':
+                    document.getElementById('solutions').style.color='orange';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Nervous...</h3>'+
                     'Shake out your hands and arms for 10-15 seconds — literally "shake it off" <br>'+
@@ -64,6 +71,7 @@ function advisor(){
                     'Slow your exhale longer than your inhale ';
                     break
                 case 'over':
+                    document.getElementById('solutions').style.color='steelblue';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Are you Overthinking...</h3>'+
                     'Brain dump: write every thought down without editing, just to get it out of your head <br>'+
@@ -72,6 +80,7 @@ function advisor(){
                     'Do something with your hands (engaging) to interrupt the mental loop ';
                     break
                 case 'lonely':
+                    document.getElementById('solutions').style.color='indigo';
                     document.getElementById('solutions').innerHTML=
                      '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Lonely...</h3>'+
                     'Be your own company: cook a nice meal, watch a comfort show, or take yourself on a walk <br>'+
@@ -80,6 +89,7 @@ function advisor(){
                     'Volunteer or help someone, which creates connection quickly ';
                     break;
                 case 'guilt':
+                    document.getElementById('solutions').style.color='brown';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Guilty... </h3>'+
                     "Ask yourself whether you actually did something wrong or are being too hard on yourself <br>"+
@@ -88,6 +98,7 @@ function advisor(){
                     'Once you’ve made amends, let it go and do something kind for someone';
                     break
                 case 'overwhelmed':
+                    document.getElementById('solutions').style.color='teal';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Overwhelmed...</h3>'+
                     "Do a brain dump: write down everything on your mind <br>"+
@@ -96,6 +107,7 @@ function advisor(){
                     'Ask for help or say no to something if you can';
                     break
                 case 'excited':
+                    document.getElementById('solutions').style.color='violet';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Overexcited...</h3>'+
                     "Channel the energy into preparation, such as planning or practicing <br>"+
@@ -104,6 +116,7 @@ function advisor(){
                     'Share the news with someone who will enjoy it with you';
                     break 
                 case 'bore':
+                    document.getElementById('solutions').style.color='tan';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Bored...</h3>'+
                     "Start a small project you’ve been putting off, such as organizing a drawer or learning a skill <br>"+
@@ -112,6 +125,7 @@ function advisor(){
                     'Reach out to a friend or plan something to look forward to';
                     break
                 case 'embarrassed':
+                    document.getElementById('solutions').style.color='deeppink';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Embarrassed...</h3>'+
                     "Take a few slow breaths and remind yourself that most people forget such moments quickly<br>"+
@@ -120,6 +134,7 @@ function advisor(){
                     'Treat it as proof that you’re human and that you took a risk';
                     break
                 case 'frus':
+                    document.getElementById('solutions').style.color='crimson';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Frustrated...</h3>'+
                     'Step away from the problem for 5 to 10 minutes before returning to it <br>'+
@@ -128,6 +143,7 @@ function advisor(){
                     'Ask someone for a fresh perspective or help ';
                     break
                 case 'blank':
+                    document.getElementById('solutions').style.color='slategray';
                     document.getElementById('solutions').innerHTML=
                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Blank...</h3>'+
                     'Splash cool water on your face or hands to bring your attention back to your body <br>'+

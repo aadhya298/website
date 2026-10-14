@@ -1,0 +1,79 @@
+.base{
+    background-image:url("images (3).jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+.options{
+    margin-left: 350px;
+    border-radius:999px;
+}
+.foot{
+    background-color: #0073e6;
+    color: white;
+}
+.mood1{
+    background-image: url("images.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood2{
+    background-image: url("1940837.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood3{
+    background-image: url("0818_anxiety-Cog-1000x547.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood4{
+    background-image: url("stock-photo-bad-taste.jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood5{
+    background-image: url("435692d9-8b4b-4f2c-9e9d-47a817e0fc53.jpeg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood6{
+    background-image: url("image.webp");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood7{
+    background-image: url("images (2).jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood8{
+    background-image: url("images (2).jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.mood8{
+    background-image: url("images (1).jpg");
+    background-size: cover;
+    font-family: cursive;
+}
+.marks{
+    text-decoration:none;
+    color:white;
+}
+.marks:hover{
+    background-color:maroon;
+}
+.show{
+    height:400px;
+}
+.head{
+    background-color:rgb(229, 225, 225);
+}
+h5{
+    font-variant: small-caps;
+    text-align: center;
+}
+.content{
+    margin-left: 20px;
+}

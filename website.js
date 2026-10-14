@@ -3,10 +3,12 @@ function advisor(){
     moods.forEach(b =>{
         b.addEventListener('click',() =>{
             const id=b.id
-            document.getElementById('solutions').style.backgroundColor='DarkBlue';
-            document.getElementById('solutions').style.border='2px solid white';
-            document.getElementById('solutions').style.color='white';
-            document.getElementById('solutions').style.textAlign='Center';
+            document.getElementById("solutions").style.background = "rgba(255,255,255,.85)";
+            document.getElementById("solutions").style.borderRadius = "var(--card-radius)";
+            document.getElementById("solutions").style.boxShadow = "0 10px 30px rgba(31,42,68,.12)";
+            document.getElementById("solutions").style.padding = "32px";
+            document.getElementById("solutions").style.marginTop = "-60px";
+            document.getElementById("solutions").style.position = "relative";
             switch(id){
                 case 'happy':
                     document.getElementById('solutions').innerHTML=
@@ -68,6 +70,70 @@ function advisor(){
                     'Ask yourself: "Is this something I can act on right now?" If not, note it, set it aside, and focus on your prime goal. <br>'+
                     "Switch environments — moving to another room or outside can break the loop <br>"+
                     'Do something with your hands (engaging) to interrupt the mental loop ';
+                    break
+                case 'lonely':
+                    document.getElementById('solutions').innerHTML=
+                     '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Lonely...</h3>'+
+                    'Be your own company: cook a nice meal, watch a comfort show, or take yourself on a walk <br>'+
+                    'Go somewhere with gentle company, like a café, park, or library <br>'+
+                    "Send a message to one person, even a simple “thinking of you” <br>"+
+                    'Volunteer or help someone, which creates connection quickly ';
+                    break;
+                case 'guilt':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Guilty... </h3>'+
+                    "Ask yourself whether you actually did something wrong or are being too hard on yourself <br>"+
+                    "If you did, apologize sincerely and think about how to repair it <br>"+
+                    'Write down what you learned and what you’d do differently <br>'+
+                    'Once you’ve made amends, let it go and do something kind for someone';
+                    break
+                case 'overwhelmed':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Overwhelmed...</h3>'+
+                    "Do a brain dump: write down everything on your mind <br>"+
+                    "Circle the one thing that truly needs to be done first, and set the rest aside <br>"+
+                    'Break that task into the smallest possible steps <br>'+
+                    'Ask for help or say no to something if you can';
+                    break
+                case 'excited':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Overexcited...</h3>'+
+                    "Channel the energy into preparation, such as planning or practicing <br>"+
+                    "Move your body with a dance, a walk, or some stretching to release the extra energy<br>"+
+                    'Slow down with a few deep breaths so you stay focused <br>'+
+                    'Share the news with someone who will enjoy it with you';
+                    break 
+                case 'bore':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Bored...</h3>'+
+                    "Start a small project you’ve been putting off, such as organizing a drawer or learning a skill <br>"+
+                    "Create something: write, doodle, photograph, or build <br>"+
+                    'Try something new, like a new recipe, a podcast, or a different route on your walk <br>'+
+                    'Reach out to a friend or plan something to look forward to';
+                    break
+                case 'embarrassed':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Embarrassed...</h3>'+
+                    "Take a few slow breaths and remind yourself that most people forget such moments quickly<br>"+
+                    "Laugh at it if you can, since a lighthearted view often takes away the sting <br>"+
+                    "Avoid replaying it, and shift your attention to something absorbing <br>"+
+                    'Treat it as proof that you’re human and that you took a risk';
+                    break
+                case 'frus':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Frustrated...</h3>'+
+                    'Step away from the problem for 5 to 10 minutes before returning to it <br>'+
+                    "Take a few slow breaths, exhaling fully, and unclench your hands and jaw <br>"+
+                    "Break the task into a smaller piece you can finish easily, for a quick win <br>"+
+                    'Ask someone for a fresh perspective or help ';
+                    break
+                case 'blank':
+                    document.getElementById('solutions').innerHTML=
+                    '<h3 style="font-family:Lucida Handwriting,cursive">Feeling Blank...</h3>'+
+                    'Splash cool water on your face or hands to bring your attention back to your body <br>'+
+                    'Rest without pressure: lie down, close your eyes, or listen to soft music <br>'+
+                    "Sip water or a warm drink, and eat something light if you haven’t in a while <br>"+
+                    'Don’t force yourself to think or decide. Let your mind settle, and return to tasks when you feel ready ';
                     break
             }
         })
